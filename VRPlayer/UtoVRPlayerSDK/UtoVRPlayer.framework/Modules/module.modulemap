@@ -1,0 +1,6 @@
+framework module UtoVRPlayer {
+  umbrella header "UtoVRPlayer.h"
+
+  export *
+  module * { export * }
+}

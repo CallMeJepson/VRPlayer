@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23928B01D1B771600D57B07 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23928AF1D1B771600D57B07 /* GLKit.framework */; };
+		E23928B21D1B772000D57B07 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23928B11D1B772000D57B07 /* CoreMotion.framework */; };
+		E23928B41D1B772500D57B07 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E23928B31D1B772500D57B07 /* libz.tbd */; };
+		E2A34F541D1AB06000C07D9A /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F3E1D1AB06000C07D9A /* MJDictionaryCache.m */; };
+		E2A34F551D1AB06000C07D9A /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F411D1AB06000C07D9A /* MJExtensionConst.m */; };
+		E2A34F561D1AB06000C07D9A /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F431D1AB06000C07D9A /* MJFoundation.m */; };
+		E2A34F571D1AB06000C07D9A /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F451D1AB06000C07D9A /* MJProperty.m */; };
+		E2A34F581D1AB06000C07D9A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F471D1AB06000C07D9A /* MJPropertyKey.m */; };
+		E2A34F591D1AB06000C07D9A /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F491D1AB06000C07D9A /* MJPropertyType.m */; };
+		E2A34F5A1D1AB06000C07D9A /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F4B1D1AB06000C07D9A /* NSObject+MJClass.m */; };
+		E2A34F5B1D1AB06000C07D9A /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F4D1D1AB06000C07D9A /* NSObject+MJCoding.m */; };
+		E2A34F5C1D1AB06000C07D9A /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F4F1D1AB06000C07D9A /* NSObject+MJKeyValue.m */; };
+		E2A34F5D1D1AB06000C07D9A /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F511D1AB06000C07D9A /* NSObject+MJProperty.m */; };
+		E2A34F5E1D1AB06000C07D9A /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F531D1AB06000C07D9A /* NSString+MJExtension.m */; };
+		E2A34F611D1AB4E800C07D9A /* VRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A34F601D1AB4E800C07D9A /* VRPlayerViewController.m */; };
+		E2A34F651D1AB54E00C07D9A /* UtoVRPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A34F631D1AB54E00C07D9A /* UtoVRPlayer.framework */; };
+		E2A34F661D1AB54E00C07D9A /* UtoVRPlayerResouces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2A34F641D1AB54E00C07D9A /* UtoVRPlayerResouces.bundle */; };
+		E2FE79091D1AA9E2002A8253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79081D1AA9E2002A8253 /* main.m */; };
+		E2FE790C1D1AA9E2002A8253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE790B1D1AA9E2002A8253 /* AppDelegate.m */; };
+		E2FE790F1D1AA9E2002A8253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE790E1D1AA9E2002A8253 /* ViewController.m */; };
+		E2FE79121D1AA9E2002A8253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE79101D1AA9E2002A8253 /* Main.storyboard */; };
+		E2FE79141D1AA9E2002A8253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FE79131D1AA9E2002A8253 /* Assets.xcassets */; };
+		E2FE79171D1AA9E2002A8253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE79151D1AA9E2002A8253 /* LaunchScreen.storyboard */; };
+		E2FE792E1D1AAADF002A8253 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79201D1AAADF002A8253 /* AFHTTPSessionManager.m */; };
+		E2FE792F1D1AAADF002A8253 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79231D1AAADF002A8253 /* AFNetworkReachabilityManager.m */; };
+		E2FE79301D1AAADF002A8253 /* AFN使用说明.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79241D1AAADF002A8253 /* AFN使用说明.m */; };
+		E2FE79311D1AAADF002A8253 /* AFN和ASI的区别.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79251D1AAADF002A8253 /* AFN和ASI的区别.m */; };
+		E2FE79321D1AAADF002A8253 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79271D1AAADF002A8253 /* AFSecurityPolicy.m */; };
+		E2FE79331D1AAADF002A8253 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79291D1AAADF002A8253 /* AFURLRequestSerialization.m */; };
+		E2FE79341D1AAADF002A8253 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE792B1D1AAADF002A8253 /* AFURLResponseSerialization.m */; };
+		E2FE79351D1AAADF002A8253 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE792D1D1AAADF002A8253 /* AFURLSessionManager.m */; };
+		E2FE79381D1AAD34002A8253 /* VRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE79371D1AAD34002A8253 /* VRItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E23928AF1D1B771600D57B07 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E23928B11D1B772000D57B07 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E23928B31D1B772500D57B07 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E2A34F3D1D1AB06000C07D9A /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		E2A34F3E1D1AB06000C07D9A /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		E2A34F3F1D1AB06000C07D9A /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		E2A34F401D1AB06000C07D9A /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		E2A34F411D1AB06000C07D9A /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		E2A34F421D1AB06000C07D9A /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		E2A34F431D1AB06000C07D9A /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		E2A34F441D1AB06000C07D9A /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		E2A34F451D1AB06000C07D9A /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		E2A34F461D1AB06000C07D9A /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		E2A34F471D1AB06000C07D9A /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		E2A34F481D1AB06000C07D9A /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		E2A34F491D1AB06000C07D9A /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		E2A34F4A1D1AB06000C07D9A /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		E2A34F4B1D1AB06000C07D9A /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		E2A34F4C1D1AB06000C07D9A /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		E2A34F4D1D1AB06000C07D9A /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		E2A34F4E1D1AB06000C07D9A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		E2A34F4F1D1AB06000C07D9A /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		E2A34F501D1AB06000C07D9A /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		E2A34F511D1AB06000C07D9A /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		E2A34F521D1AB06000C07D9A /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		E2A34F531D1AB06000C07D9A /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		E2A34F5F1D1AB4E800C07D9A /* VRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPlayerViewController.h; sourceTree = "<group>"; };
+		E2A34F601D1AB4E800C07D9A /* VRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPlayerViewController.m; sourceTree = "<group>"; };
+		E2A34F631D1AB54E00C07D9A /* UtoVRPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UtoVRPlayer.framework; sourceTree = "<group>"; };
+		E2A34F641D1AB54E00C07D9A /* UtoVRPlayerResouces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UtoVRPlayerResouces.bundle; sourceTree = "<group>"; };
+		E2FE79041D1AA9E2002A8253 /* VRPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FE79081D1AA9E2002A8253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2FE790A1D1AA9E2002A8253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2FE790B1D1AA9E2002A8253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2FE790D1D1AA9E2002A8253 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2FE790E1D1AA9E2002A8253 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2FE79111D1AA9E2002A8253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2FE79131D1AA9E2002A8253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2FE79161D1AA9E2002A8253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2FE79181D1AA9E2002A8253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FE791F1D1AAADF002A8253 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		E2FE79201D1AAADF002A8253 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E2FE79211D1AAADF002A8253 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		E2FE79221D1AAADF002A8253 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		E2FE79231D1AAADF002A8253 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E2FE79241D1AAADF002A8253 /* AFN使用说明.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFN使用说明.m"; sourceTree = "<group>"; };
+		E2FE79251D1AAADF002A8253 /* AFN和ASI的区别.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFN和ASI的区别.m"; sourceTree = "<group>"; };
+		E2FE79261D1AAADF002A8253 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		E2FE79271D1AAADF002A8253 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		E2FE79281D1AAADF002A8253 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E2FE79291D1AAADF002A8253 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E2FE792A1D1AAADF002A8253 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E2FE792B1D1AAADF002A8253 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		E2FE792C1D1AAADF002A8253 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		E2FE792D1D1AAADF002A8253 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		E2FE79361D1AAD34002A8253 /* VRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRItem.h; sourceTree = "<group>"; };
+		E2FE79371D1AAD34002A8253 /* VRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FE79011D1AA9E2002A8253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23928B41D1B772500D57B07 /* libz.tbd in Frameworks */,
+				E23928B21D1B772000D57B07 /* CoreMotion.framework in Frameworks */,
+				E23928B01D1B771600D57B07 /* GLKit.framework in Frameworks */,
+				E2A34F651D1AB54E00C07D9A /* UtoVRPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23928B51D1B7CE100D57B07 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E23928B31D1B772500D57B07 /* libz.tbd */,
+				E23928B11D1B772000D57B07 /* CoreMotion.framework */,
+				E23928AF1D1B771600D57B07 /* GLKit.framework */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		E2A34F3C1D1AB06000C07D9A /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E2A34F3D1D1AB06000C07D9A /* MJDictionaryCache.h */,
+				E2A34F3E1D1AB06000C07D9A /* MJDictionaryCache.m */,
+				E2A34F3F1D1AB06000C07D9A /* MJExtension.h */,
+				E2A34F401D1AB06000C07D9A /* MJExtensionConst.h */,
+				E2A34F411D1AB06000C07D9A /* MJExtensionConst.m */,
+				E2A34F421D1AB06000C07D9A /* MJFoundation.h */,
+				E2A34F431D1AB06000C07D9A /* MJFoundation.m */,
+				E2A34F441D1AB06000C07D9A /* MJProperty.h */,
+				E2A34F451D1AB06000C07D9A /* MJProperty.m */,
+				E2A34F461D1AB06000C07D9A /* MJPropertyKey.h */,
+				E2A34F471D1AB06000C07D9A /* MJPropertyKey.m */,
+				E2A34F481D1AB06000C07D9A /* MJPropertyType.h */,
+				E2A34F491D1AB06000C07D9A /* MJPropertyType.m */,
+				E2A34F4A1D1AB06000C07D9A /* NSObject+MJClass.h */,
+				E2A34F4B1D1AB06000C07D9A /* NSObject+MJClass.m */,
+				E2A34F4C1D1AB06000C07D9A /* NSObject+MJCoding.h */,
+				E2A34F4D1D1AB06000C07D9A /* NSObject+MJCoding.m */,
+				E2A34F4E1D1AB06000C07D9A /* NSObject+MJKeyValue.h */,
+				E2A34F4F1D1AB06000C07D9A /* NSObject+MJKeyValue.m */,
+				E2A34F501D1AB06000C07D9A /* NSObject+MJProperty.h */,
+				E2A34F511D1AB06000C07D9A /* NSObject+MJProperty.m */,
+				E2A34F521D1AB06000C07D9A /* NSString+MJExtension.h */,
+				E2A34F531D1AB06000C07D9A /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		E2A34F621D1AB54E00C07D9A /* UtoVRPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E2A34F631D1AB54E00C07D9A /* UtoVRPlayer.framework */,
+				E2A34F641D1AB54E00C07D9A /* UtoVRPlayerResouces.bundle */,
+			);
+			path = UtoVRPlayerSDK;
+			sourceTree = "<group>";
+		};
+		E2FE78FB1D1AA9E2002A8253 = {
+			isa = PBXGroup;
+			children = (
+				E2FE79061D1AA9E2002A8253 /* VRPlayer */,
+				E2FE79051D1AA9E2002A8253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2FE79051D1AA9E2002A8253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE79041D1AA9E2002A8253 /* VRPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FE79061D1AA9E2002A8253 /* VRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE790A1D1AA9E2002A8253 /* AppDelegate.h */,
+				E2FE790B1D1AA9E2002A8253 /* AppDelegate.m */,
+				E2FE790D1D1AA9E2002A8253 /* ViewController.h */,
+				E2FE790E1D1AA9E2002A8253 /* ViewController.m */,
+				E2A34F5F1D1AB4E800C07D9A /* VRPlayerViewController.h */,
+				E2A34F601D1AB4E800C07D9A /* VRPlayerViewController.m */,
+				E2FE79361D1AAD34002A8253 /* VRItem.h */,
+				E2FE79371D1AAD34002A8253 /* VRItem.m */,
+				E2FE79101D1AA9E2002A8253 /* Main.storyboard */,
+				E2FE79131D1AA9E2002A8253 /* Assets.xcassets */,
+				E2FE79151D1AA9E2002A8253 /* LaunchScreen.storyboard */,
+				E2FE79181D1AA9E2002A8253 /* Info.plist */,
+				E2A34F621D1AB54E00C07D9A /* UtoVRPlayerSDK */,
+				E2A34F3C1D1AB06000C07D9A /* MJExtension */,
+				E2FE791E1D1AAADF002A8253 /* AFNetworking 3.0 */,
+				E2FE79071D1AA9E2002A8253 /* Supporting Files */,
+			);
+			path = VRPlayer;
+			sourceTree = "<group>";
+		};
+		E2FE79071D1AA9E2002A8253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23928B51D1B7CE100D57B07 /* lib */,
+				E2FE79081D1AA9E2002A8253 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2FE791E1D1AAADF002A8253 /* AFNetworking 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE791F1D1AAADF002A8253 /* AFHTTPSessionManager.h */,
+				E2FE79201D1AAADF002A8253 /* AFHTTPSessionManager.m */,
+				E2FE79211D1AAADF002A8253 /* AFNetworking.h */,
+				E2FE79221D1AAADF002A8253 /* AFNetworkReachabilityManager.h */,
+				E2FE79231D1AAADF002A8253 /* AFNetworkReachabilityManager.m */,
+				E2FE79241D1AAADF002A8253 /* AFN使用说明.m */,
+				E2FE79251D1AAADF002A8253 /* AFN和ASI的区别.m */,
+				E2FE79261D1AAADF002A8253 /* AFSecurityPolicy.h */,
+				E2FE79271D1AAADF002A8253 /* AFSecurityPolicy.m */,
+				E2FE79281D1AAADF002A8253 /* AFURLRequestSerialization.h */,
+				E2FE79291D1AAADF002A8253 /* AFURLRequestSerialization.m */,
+				E2FE792A1D1AAADF002A8253 /* AFURLResponseSerialization.h */,
+				E2FE792B1D1AAADF002A8253 /* AFURLResponseSerialization.m */,
+				E2FE792C1D1AAADF002A8253 /* AFURLSessionManager.h */,
+				E2FE792D1D1AAADF002A8253 /* AFURLSessionManager.m */,
+			);
+			path = "AFNetworking 3.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2FE79031D1AA9E2002A8253 /* VRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FE791B1D1AA9E2002A8253 /* Build configuration list for PBXNativeTarget "VRPlayer" */;
+			buildPhases = (
+				E2FE79001D1AA9E2002A8253 /* Sources */,
+				E2FE79011D1AA9E2002A8253 /* Frameworks */,
+				E2FE79021D1AA9E2002A8253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPlayer;
+			productName = VRPlayer;
+			productReference = E2FE79041D1AA9E2002A8253 /* VRPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FE78FC1D1AA9E2002A8253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JP;
+				TargetAttributes = {
+					E2FE79031D1AA9E2002A8253 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D8BB2AM5LK;
+					};
+				};
+			};
+			buildConfigurationList = E2FE78FF1D1AA9E2002A8253 /* Build configuration list for PBXProject "VRPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2FE78FB1D1AA9E2002A8253;
+			productRefGroup = E2FE79051D1AA9E2002A8253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2FE79031D1AA9E2002A8253 /* VRPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2FE79021D1AA9E2002A8253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A34F661D1AB54E00C07D9A /* UtoVRPlayerResouces.bundle in Resources */,
+				E2FE79171D1AA9E2002A8253 /* LaunchScreen.storyboard in Resources */,
+				E2FE79141D1AA9E2002A8253 /* Assets.xcassets in Resources */,
+				E2FE79121D1AA9E2002A8253 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FE79001D1AA9E2002A8253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE79331D1AAADF002A8253 /* AFURLRequestSerialization.m in Sources */,
+				E2FE790F1D1AA9E2002A8253 /* ViewController.m in Sources */,
+				E2A34F551D1AB06000C07D9A /* MJExtensionConst.m in Sources */,
+				E2A34F571D1AB06000C07D9A /* MJProperty.m in Sources */,
+				E2A34F5B1D1AB06000C07D9A /* NSObject+MJCoding.m in Sources */,
+				E2A34F561D1AB06000C07D9A /* MJFoundation.m in Sources */,
+				E2FE790C1D1AA9E2002A8253 /* AppDelegate.m in Sources */,
+				E2A34F581D1AB06000C07D9A /* MJPropertyKey.m in Sources */,
+				E2FE79381D1AAD34002A8253 /* VRItem.m in Sources */,
+				E2FE792F1D1AAADF002A8253 /* AFNetworkReachabilityManager.m in Sources */,
+				E2A34F5C1D1AB06000C07D9A /* NSObject+MJKeyValue.m in Sources */,
+				E2A34F591D1AB06000C07D9A /* MJPropertyType.m in Sources */,
+				E2A34F541D1AB06000C07D9A /* MJDictionaryCache.m in Sources */,
+				E2A34F5D1D1AB06000C07D9A /* NSObject+MJProperty.m in Sources */,
+				E2FE79351D1AAADF002A8253 /* AFURLSessionManager.m in Sources */,
+				E2A34F611D1AB4E800C07D9A /* VRPlayerViewController.m in Sources */,
+				E2FE79341D1AAADF002A8253 /* AFURLResponseSerialization.m in Sources */,
+				E2FE79091D1AA9E2002A8253 /* main.m in Sources */,
+				E2A34F5A1D1AB06000C07D9A /* NSObject+MJClass.m in Sources */,
+				E2FE79321D1AAADF002A8253 /* AFSecurityPolicy.m in Sources */,
+				E2A34F5E1D1AB06000C07D9A /* NSString+MJExtension.m in Sources */,
+				E2FE79311D1AAADF002A8253 /* AFN和ASI的区别.m in Sources */,
+				E2FE79301D1AAADF002A8253 /* AFN使用说明.m in Sources */,
+				E2FE792E1D1AAADF002A8253 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2FE79101D1AA9E2002A8253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE79111D1AA9E2002A8253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2FE79151D1AA9E2002A8253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE79161D1AA9E2002A8253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2FE79191D1AA9E2002A8253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2FE791A1D1AA9E2002A8253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2FE791C1D1AA9E2002A8253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRPlayer/UtoVRPlayerSDK",
+				);
+				INFOPLIST_FILE = VRPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingpeng.VRPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E2FE791D1D1AA9E2002A8253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRPlayer/UtoVRPlayerSDK",
+				);
+				INFOPLIST_FILE = VRPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingpeng.VRPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2FE78FF1D1AA9E2002A8253 /* Build configuration list for PBXProject "VRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE79191D1AA9E2002A8253 /* Debug */,
+				E2FE791A1D1AA9E2002A8253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FE791B1D1AA9E2002A8253 /* Build configuration list for PBXNativeTarget "VRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE791C1D1AA9E2002A8253 /* Debug */,
+				E2FE791D1D1AA9E2002A8253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FE78FC1D1AA9E2002A8253 /* Project object */;
+}
